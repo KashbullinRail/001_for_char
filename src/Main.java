@@ -14,7 +14,7 @@ public class Main {
         System.out.println("");
         for (char i = 32; i < 128; i++) {
             System.out.print("  " + i);
-            i++;
+            i += 2;
         }
         System.out.println("");
         System.out.println("Все char через раз");
